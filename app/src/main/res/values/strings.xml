@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Physicsfy</string>
     <string name="title_activity_main2">MainActivity2</string>
-    <string name="tab_text_1">Lorentz Calculator</string>
-    <string name="tab_text_2">SPI Calculator</string>
+    <string name="tab_text_1">Lorentz</string>
+    <string name="tab_text_2">SPI</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment"></string>
 </resources>

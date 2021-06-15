@@ -111,7 +111,7 @@ public class Lorentz extends Fragment {
                 else
                 {
                     //if entered speed is not valid input, inform user
-                    if(!(isNumeric(speedl.getText().toString())))
+                    if(!(isNumeric(speedl.getText().toString())) || Double.parseDouble(speedl.getText().toString()) >C)
                     {
                         //Log.d("test","4");
                         Toast.makeText(getActivity() ,"Invalid speed input", Toast.LENGTH_SHORT).show();
